@@ -75,6 +75,8 @@ int main()
         delete[]B[count];
     for (int count = 0; count < columns_B; count++)
         delete[]C[count];
-
+    delete[]A;
+    delete[]B;
+    delete[]C;
     return 0;
 }
